@@ -53,6 +53,7 @@ def count_empty_seats(chart)
       inner_count += (seat == nil ? 1 : 0)
     end
   end
+  # Simplest solution: chart.flatten.count(nil)
 end
 
 def find_favorite(array_of_hash_objects)
